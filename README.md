@@ -5,6 +5,9 @@ The questions I chose are all related to the user's like (or dislike) of differe
 ## How It Works
     * Homepage has a Take Survey button, which if clicked takes the user to a survey page.
     * The user is required to fill out a name and an email address, and then answer the 10 questions provided.
+    * Once the information has been submitted, program runs through an array of people to see whick person has the closest results.
+    * Then the program displays a card at the bottom to show which person best fits their answers.
+
 
 ## Installation
     npm install
@@ -12,23 +15,25 @@ The questions I chose are all related to the user's like (or dislike) of differe
     npm install path
 
 ## Screenshots
-### Running Program
-![Alt text](https://github.com/aileenflanagan/Bamazon/blob/master/ReadMe_ScreenShots/node.JPG?raw=true)
-### Displaying Products
-![Alt text](https://github.com/aileenflanagan/Bamazon/blob/master/ReadMe_ScreenShots/displayProd.JPG?raw=true)
-### Prompt for ID of chosen product and quantity
-![Alt text](https://github.com/aileenflanagan/Bamazon/blob/master/ReadMe_ScreenShots/prompt.JPG?raw=true)
-### Invalid ID Entered
-![Alt text](https://github.com/aileenflanagan/Bamazon/blob/master/ReadMe_ScreenShots/incorrect_id.JPG?raw=true)
-### Invalid Quantity Entered
-![Alt text](https://github.com/aileenflanagan/Bamazon/blob/master/ReadMe_ScreenShots/negative_qty_entered.JPG?raw=true)
-### When user enters a number larger than what is in stock
-![Alt text](https://github.com/aileenflanagan/Bamazon/blob/master/ReadMe_ScreenShots/not_enough_in_stock.JPG?raw=true)
-### Correct ID and quantity entered
-![Alt text](https://github.com/aileenflanagan/Bamazon/blob/master/ReadMe_ScreenShots/valid_id_and_qty.JPG?raw=true)
+### Home Page
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/Home.JPG?raw=true)
+### Survey
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/Survey1.JPG?raw=true)
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/Survey2.JPG?raw=true)
+### If empty name and email, validation
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/Empty_About.JPG?raw=true)
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/Empty_validation.JPG?raw=true)
+### Filling out the form
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/add_new.JPG?raw=true)
+### Displaying Best Match Card at Bottom of Page
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/add_new2.JPG?raw=true)
+### API/friends displays both the original array, and anything added in the survey
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/API_Friends.JPG?raw=true)
+![Alt text](https://github.com/aileenflanagan/FriendFinder/blob/master/ReadMe_images/api_friends_new_data.JPG?raw=true)
+
 
 ## Known Issues
-
+    None at this time. Assignment did request to use modals, but I was having trouble getting those to show so I used cards instead just to show that I know the basic concept of the assignment and just had issues with Bootstrap.
 
 ## Authors
     * Aileen Flanagan
