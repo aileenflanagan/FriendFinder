@@ -1,10 +1,11 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "This friend finder is an application that has a user take a survey, compares it to other people stored and gives the best overall match.\r The questions I chose are all related to the user's like (or dislike) of different types of animals.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
